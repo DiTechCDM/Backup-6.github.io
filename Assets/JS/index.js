@@ -195,12 +195,12 @@ function getCorrectAnswer(questions, index) {
         if (incorrectVideo.style.display === "none") {
             incorrectVideo.style.display = "block";
             // document.getElementById('answer1').innerHTML = "The correct answer is " + quest;
-            setTimeout(function () {
-                $('#answer1').fadeOut(3000);
-            }, 2600); // <-- time in milliseconds
             // setTimeout(function () {
-            //     $('#video-incorrect').fadeOut('fast');
-            // }); // <-- time in milliseconds
+            //     $('#answer1').fadeOut(3000);
+            // }, 2600); // <-- time in milliseconds
+            setTimeout(function () {
+                $('#video-incorrect').fadeOut('fast');
+            }, 2500); // <-- time in milliseconds
         }
         else {
             incorrectVideo.style.display = "none";
