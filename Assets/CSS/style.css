@@ -1919,6 +1919,13 @@ input[type="radio"]:checked~.bullet .line.seven {
         top: 110px;
         left: -10px;
     }
+    .swal-button {
+        width: 70px;
+        height: 45px;
+    }
+    .swal-title{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -1926,3 +1933,4 @@ input[type="radio"]:checked~.bullet .line.seven {
         max-width: 35%;
         top: -105px;
     }
+}
