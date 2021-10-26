@@ -171,9 +171,9 @@ function getCorrectAnswer(questions, index) {
         var correctVideo = document.getElementById('video-correct');
         if (correctVideo.style.display === "none") {
             correctVideo.style.display = "block";
-            // setTimeout(function () {
-            //     $('#video-correct').fadeOut('fast');
-            // }); // <-- time in milliseconds
+            setTimeout(function () {
+                $('#video-correct').fadeOut('fast');
+            }, 2600); // <-- time in milliseconds
         }
         else {
             correctVideo.style.display = "none"
@@ -195,9 +195,9 @@ function getCorrectAnswer(questions, index) {
         if (incorrectVideo.style.display === "none") {
             incorrectVideo.style.display = "block";
             // document.getElementById('answer1').innerHTML = "The correct answer is " + quest;
-            // setTimeout(function () {
-            //     $('#answer1').fadeOut(3000);
-            // }); // <-- time in milliseconds
+            setTimeout(function () {
+                $('#answer1').fadeOut(3000);
+            }, 2600); // <-- time in milliseconds
             // setTimeout(function () {
             //     $('#video-incorrect').fadeOut('fast');
             // }); // <-- time in milliseconds
